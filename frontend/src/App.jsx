@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios';
+import "./App.css";
 function App() {
   const [userData, setUserData] = useState([]);
 
@@ -19,7 +20,7 @@ function App() {
       {
         userData?.map((details) => {
           return (
-            <div key={details.id}>
+            <div key={details.id} className='card'>
               <h3>{details.name}</h3>
               <p>{details.description}</p>
             </div>

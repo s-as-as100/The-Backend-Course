@@ -1,6 +1,10 @@
 #root {
   max-width: 1280px;
-  
 }
 
- 
+.card {
+  background: #f50505;
+  padding: 1rem;
+  border: 12px solid green;
+  margin-top: 1rem;
+}
